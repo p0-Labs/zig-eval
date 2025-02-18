@@ -1,0 +1,79 @@
+{"function_name":"has_close_elements","description":"Checks if any two numbers in the list are closer to each other than the given threshold.", "prompt_name": "zig_eval_001"}
+{"function_name":"separate_paren_groups","description":"Splits a string of multiple groups of balanced parentheses (separated by spaces) into a list of those groups.", "prompt_name": "zig_eval_002"}
+{"function_name":"truncate_number","description":"Returns the fractional part of a positive floating-point number (the part after the decimal point).", "prompt_name": "zig_eval_003"}
+{"function_name":"below_zero","description":"Given a list of account operations (deposits and withdrawals), returns True if at any point the running balance goes below zero.", "prompt_name": "zig_eval_004"}
+{"function_name":"mean_absolute_deviation","description":"Calculates the Mean Absolute Deviation of a list of numbers (average of absolute differences from the mean).", "prompt_name": "zig_eval_005"}
+{"function_name":"intersperse","description":"Inserts a given delimiter element between every pair of consecutive elements in the input list.", "prompt_name": "zig_eval_006"}
+{"function_name":"parse_nested_parens","description":"Analyzes a string of nested parentheses and returns information (e.g., depth or structure).", "prompt_name": "zig_eval_007"}
+{"function_name":"filter_by_substring","description":"Returns a list of those strings from the input list that contain the given substring.", "prompt_name": "zig_eval_008"}
+{"function_name":"sum_product","description":"Given a list of integers, returns a tuple where the first element is the sum of the numbers and the second is their product.", "prompt_name": "zig_eval_009"}
+{"function_name":"rolling_max","description":"Processes a list of numbers and returns a list where each element is the maximum of all elements up to that index in the original list.", "prompt_name": "zig_eval_010"}
+{"function_name":"make_palindrome","description":"Constructs the shortest palindrome that starts with the given string (possibly by appending characters at the end).", "prompt_name": "zig_eval_011"}
+{"function_name":"string_xor","description":"Performs a binary XOR operation on two binary string inputs and returns the result as a binary string.", "prompt_name": "zig_eval_012"}
+{"function_name":"longest","description":"Returns the longest string from a list of strings (the first longest if there is a tie), or None if the list is empty.", "prompt_name": "zig_eval_013"}
+{"function_name":"greatest_common_divisor","description":"Computes the greatest common divisor (GCD) of two integers a and b.", "prompt_name": "zig_eval_014"}
+{"function_name":"all_prefixes","description":"Generates a list of all prefixes of the input string, from shortest to longest.", "prompt_name": "zig_eval_015"}
+{"function_name":"string_sequence","description":"Returns a space-separated string of all numbers from 0 up to n (inclusive).", "prompt_name": "zig_eval_016"}
+{"function_name":"count_distinct_characters","description":"Counts the number of distinct characters in a string (case-insensitive).", "prompt_name": "zig_eval_017"}
+{"function_name":"parse_music","description":"Parses a music notation string of special ASCII symbols and returns a list of integers representing the beat counts of each note.", "prompt_name": "zig_eval_018"}
+{"function_name":"how_many_times","description":"Counts how many times a given substring appears in a string, including overlapping occurrences.", "prompt_name": "zig_eval_019"}
+{"function_name":"sort_numbers","description":"Takes a space-delimited string of number words ('zero' to 'nine') and returns them sorted numerically as a space-delimited string.", "prompt_name": "zig_eval_020"}
+{"function_name":"find_closest_elements","description":"Given a list of floats, finds the two distinct elements that are closest in value and returns them as a (min, max) tuple.", "prompt_name": "zig_eval_021"}
+{"function_name":"rescale_to_unit","description":"Linearly rescales a list of numbers so that the smallest becomes 0.0 and the largest becomes 1.0.", "prompt_name": "zig_eval_022"}
+{"function_name":"filter_integers","description":"Filters out non-integers from the input list and returns a list of integers only.", "prompt_name": "zig_eval_023"}
+{"function_name":"strlen","description":"Returns the length of the given string.", "prompt_name": "zig_eval_024"}
+{"function_name":"largest_divisor","description":"Finds the largest divisor of n that is smaller than n (for n > 1).", "prompt_name": "zig_eval_025"}
+{"function_name":"factorize","description":"Returns the prime factorization of an integer as a list of prime factors (in non-decreasing order, including repeats).", "prompt_name": "zig_eval_026"}
+{"function_name":"remove_duplicates","description":"Removes all elements that appear more than once in the list and returns the list of unique-occurrence elements in their original order.", "prompt_name": "zig_eval_027"}
+{"function_name":"flip_case","description":"Flips the case of each letter in the string (lowercase letters become uppercase and vice versa).", "prompt_name": "zig_eval_028"}
+{"function_name":"concatenate","description":"Concatenates a list of strings into one single string.", "prompt_name": "zig_eval_029"}
+{"function_name":"filter_by_prefix","description":"Returns a list of the strings from the input list that start with the given prefix.", "prompt_name": "zig_eval_030"}
+{"function_name":"get_positive","description":"Returns a list containing only the positive numbers from the input list (greater than 0).", "prompt_name": "zig_eval_031"}
+{"function_name":"is_prime","description":"Determines if the given integer is a prime number (returns True if prime, False otherwise).", "prompt_name": "zig_eval_032"}
+{"function_name":"find_zero","description":"Given the coefficients of a polynomial, finds a root (zero) of the polynomial if one exists (under certain conditions).", "prompt_name": "zig_eval_033"}
+{"function_name":"sort_third","description":"Sorts the elements at indices that are multiples of 3 in the list, leaving other positions unchanged.", "prompt_name": "zig_eval_034"}
+{"function_name":"unique","description":"Returns a sorted list of the unique elements from the input list (removing duplicates).", "prompt_name": "zig_eval_035"}
+{"function_name":"max_element","description":"Finds and returns the maximum element in the list.", "prompt_name": "zig_eval_036"}
+{"function_name":"fizz_buzz","description":"Counts the occurrences of the digit '7' in all positive integers less than n that are divisible by 11 or 13.", "prompt_name": "zig_eval_037"}
+{"function_name":"sort_even","description":"Sorts the elements at even indices in the list in increasing order, while leaving elements at odd indices in their original order.", "prompt_name": "zig_eval_038"}
+{"function_name":"decode_cyclic","description":"Decodes a string that was encoded by cycling each group of three characters by one position (reverses that cyclic shift).", "prompt_name": "zig_eval_039"}
+{"function_name":"prime_fib","description":"Returns the n-th Fibonacci number that is also prime.", "prompt_name": "zig_eval_040"}
+{"function_name":"triples_sum_to_zero","description":"Checks if any three distinct elements in the list sum up to zero (returns True if such a triple exists).", "prompt_name": "zig_eval_041"}
+{"function_name":"car_race_collision","description":"Calculates the number of head-on collisions that occur when n cars go right and n cars go left on a line (result is n^2).", "prompt_name": "zig_eval_042"}
+{"function_name":"incr_list","description":"Returns a new list where each integer from the input list is incremented by 1.", "prompt_name": "zig_eval_043"}
+{"function_name":"pairs_sum_to_zero","description":"Returns True if there exist two distinct elements in the list that sum to zero.", "prompt_name": "zig_eval_044"}
+{"function_name":"change_base","description":"Converts a given integer to a specified base (base < 10) and returns the representation as a string.", "prompt_name": "zig_eval_045"}
+{"function_name":"triangle_area","description":"Given the lengths of three sides, returns the triangle's area rounded to 2 decimals if those sides form a valid triangle, otherwise -1.", "prompt_name": "zig_eval_046"}
+{"function_name":"fib4","description":"Computes the n-th number in the Fib4 sequence (a four-term Fibonacci-like sequence).", "prompt_name": "zig_eval_047"}
+{"function_name":"median","description":"Returns the median of the list of numbers (for an even-length list, returns the average of the two middle values).", "prompt_name": "zig_eval_048"}
+{"function_name":"is_palindrome","description":"Checks if a given string reads the same forwards and backwards (case-sensitive check).", "prompt_name": "zig_eval_049"}
+{"function_name":"modp","description":"Computes 2^n modulo p and returns the result.", "prompt_name": "zig_eval_050"}
+{"function_name":"decode_shift","description":"Decodes a string that was encoded by shifting every character 5 positions forward in the alphabet (wraps around for letters).", "prompt_name": "zig_eval_051"}
+{"function_name":"remove_vowels","description":"Removes all vowels ('a', 'e', 'i', 'o', 'u') from the input string (treating 'y' as a vowel only if it appears at the end).", "prompt_name": "zig_eval_052"}
+{"function_name":"below_threshold","description":"Returns True if every number in the list is less than the threshold t (False if any number is >= t).", "prompt_name": "zig_eval_053"}
+{"function_name":"add","description":"Returns the sum of two numbers x and y.", "prompt_name": "zig_eval_054"}
+{"function_name":"same_chars","description":"Checks if two strings consist of exactly the same set of characters (regardless of order or frequency).", "prompt_name": "zig_eval_055"}
+{"function_name":"fib","description":"Returns the n-th Fibonacci number.", "prompt_name": "zig_eval_056"}
+{"function_name":"correct_bracketing","description":"Determines if a string of parentheses is correctly balanced (every '(' has a corresponding ')' in the proper order).", "prompt_name": "zig_eval_057"}
+{"function_name":"monotonic","description":"Checks whether the list of numbers is monotonic (entirely non-decreasing or entirely non-increasing).", "prompt_name": "zig_eval_058"}
+{"function_name":"common","description":"Finds the common elements between two lists and returns them as a sorted list of unique values.", "prompt_name": "zig_eval_059"}
+{"function_name":"largest_prime_factor","description":"Returns the largest prime factor of the integer n.", "prompt_name": "zig_eval_060"}
+{"function_name":"sum_to_n","description":"Calculates the sum of all integers from 1 to n (inclusive).", "prompt_name": "zig_eval_061"}
+{"function_name":"correct_bracketing","description":"Checks if a string of round brackets is balanced (every '(' matches a later ')').", "prompt_name": "zig_eval_062"}
+{"function_name":"derivative","description":"Given the coefficients of a polynomial (constant term, x term, x^2 term, etc.), returns the coefficients of its derivative.", "prompt_name": "zig_eval_063"}
+{"function_name":"fibfib","description":"Computes the n-th number in the FibFib sequence (a Fibonacci-like sequence where fibfib(0)=0, fibfib(1)=0, fibfib(2)=1, and thereafter fibfib(n)=fibfib(n-1)+fibfib(n-2)+fibfib(n-3)).", "prompt_name": "zig_eval_064"}
+{"function_name":"vowels_count","description":"Counts the number of vowels in the given word (treats 'a', 'e', 'i', 'o', 'u' as vowels, and 'y' as a vowel only if it appears at the end of the word).", "prompt_name": "zig_eval_065"}
+{"function_name":"circular_shift","description":"Performs a circular right shift on the decimal number's digits by the given amount and returns the result as a string (if shift exceeds digit count, the digits are reversed).", "prompt_name": "zig_eval_066"}
+{"function_name":"digitSum","description":"Returns the sum of the ASCII values of all uppercase letters in the input string.", "prompt_name": "zig_eval_067"}
+{"function_name":"fruit_distribution","description":"Calculates the number of mangoes given a string like \"X apples and Y oranges\" and a total fruit count n (result = n - X - Y).", "prompt_name": "zig_eval_068"}
+{"function_name":"pluck","description":"Finds the smallest even number in the list and returns [value, index] (choosing the first occurrence if there are ties). Returns [] if no even number is found or the list is empty.", "prompt_name": "zig_eval_069"}
+{"function_name":"search","description":"From a list of positive integers, finds the largest integer that appears at least as many times as its value (returns that integer or -1 if none).", "prompt_name": "zig_eval_070"}
+{"function_name":"strange_sort_list","description":"Sorts a list in a \"strange\" order: pick the smallest element, then the largest of the remainder, then the next smallest, then next largest, and so on.", "prompt_name": "zig_eval_071"}
+{"function_name":"triangle_area","description":"Calculates the area of a triangle given side lengths a, b, c (using Heron's formula) rounded to two decimals, or returns -1 if the sides do not form a valid triangle.", "prompt_name": "zig_eval_072"}
+{"function_name":"will_it_fly","description":"Returns True if the list of numbers q is \"balanced\" (palindromic) and the sum of its elements is <= w; otherwise returns False.", "prompt_name": "zig_eval_073"}
+{"function_name":"smallest_change","description":"Determines the minimum number of elements that must be changed in an array to make it a palindrome.", "prompt_name": "zig_eval_074"}
+{"function_name":"total_match","description":"Compares two lists of strings and returns the one with the smaller total number of characters (or the first list if the totals are equal).", "prompt_name": "zig_eval_075"}
+{"function_name":"is_multiply_prime","description":"Returns True if the given number a (<100) can be expressed as the product of three prime numbers, otherwise False.", "prompt_name": "zig_eval_076"}
+{"function_name":"is_simple_power","description":"Checks if x is a power of n (i.e., x = n^k for some integer k >= 0). Returns True if yes, False otherwise.", "prompt_name": "zig_eval_077"}
+{"function_name":"iscube","description":"Returns True if the integer a is a perfect cube of some integer (including negatives and 0), otherwise False.", "prompt_name": "zig_eval_078"}
+{"function_name":"hex_key","description":"Counts how many characters in the hexadecimal string are prime digits (i.e., '2', '3', '5', '7', 'B', 'D').", "prompt_name": "zig_eval_079"}
